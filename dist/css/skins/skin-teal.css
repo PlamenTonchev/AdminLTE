@@ -57,6 +57,41 @@
 .skin-teal .content-header {
   background: transparent;
 }
+.skin-teal .pagination > li {
+  display: inline;
+}
+.skin-teal .pagination > li > a,
+.skin-teal .pagination > li > span {
+  color: #39cccc;
+}
+.skin-teal .pagination > li > a:hover,
+.skin-teal .pagination > li > span:hover,
+.skin-teal .pagination > li > a:focus,
+.skin-teal .pagination > li > span:focus {
+  color: #2dafaf;
+}
+.skin-teal .pagination > .active > a,
+.skin-teal .pagination > .active > span {
+  color: #111111;
+  background-color: #2dafaf;
+  border-color: #2dafaf;
+}
+.skin-teal .pagination > .active > a:hover,
+.skin-teal .pagination > .active > span:hover,
+.skin-teal .pagination > .active > a:focus,
+.skin-teal .pagination > .active > span:focus {
+  color: #111111;
+  background-color: #258f8f;
+  border-color: #258f8f;
+}
+.skin-teal .pagination > .disabled > span,
+.skin-teal .pagination > .disabled > span:hover,
+.skin-teal .pagination > .disabled > span:focus,
+.skin-teal .pagination > .disabled > a,
+.skin-teal .pagination > .disabled > a:hover,
+.skin-teal .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-teal .wrapper,
 .skin-teal .main-sidebar,
 .skin-teal .left-side {

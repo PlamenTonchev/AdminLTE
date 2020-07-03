@@ -56,6 +56,41 @@
 .skin-green .content-header {
   background: transparent;
 }
+.skin-green .pagination > li {
+  display: inline;
+}
+.skin-green .pagination > li > a,
+.skin-green .pagination > li > span {
+  color: #00a65a;
+}
+.skin-green .pagination > li > a:hover,
+.skin-green .pagination > li > span:hover,
+.skin-green .pagination > li > a:focus,
+.skin-green .pagination > li > span:focus {
+  color: #007d44;
+}
+.skin-green .pagination > .active > a,
+.skin-green .pagination > .active > span {
+  color: #ffffff;
+  background-color: #007d44;
+  border-color: #007d44;
+}
+.skin-green .pagination > .active > a:hover,
+.skin-green .pagination > .active > span:hover,
+.skin-green .pagination > .active > a:focus,
+.skin-green .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #00542e;
+  border-color: #00542e;
+}
+.skin-green .pagination > .disabled > span,
+.skin-green .pagination > .disabled > span:hover,
+.skin-green .pagination > .disabled > span:focus,
+.skin-green .pagination > .disabled > a,
+.skin-green .pagination > .disabled > a:hover,
+.skin-green .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-green .wrapper,
 .skin-green .main-sidebar,
 .skin-green .left-side {

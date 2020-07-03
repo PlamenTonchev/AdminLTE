@@ -59,6 +59,56 @@
     background: transparent;
     box-shadow: none;
   }
+  
+//
+// Pagination (multiple pages)
+// --------------------------------------------------
+.pagination {
+  > li {
+    display: inline; // Remove list-style and block-level defaults
+    > a,
+    > span {
+      color: @white;
+    }
+  }
+
+  > li > a,
+  > li > span {
+    &:hover,
+    &:focus {
+      color: darken(@white, 8%);
+    }
+  }
+
+  > .active > a,
+  > .active > span {
+      color: @black;
+      background-color: darken(#eee, 5%);
+      border-color: darken(#eee, 5%);
+  }
+
+  > .active > a,
+  > .active > span {
+    &:hover,
+    &:focus {
+      color: @black;
+      background-color: darken(#eee, 10%);
+      border-color: darken(#eee, 10%);
+    }
+  }
+
+  > .disabled {
+    > span,
+    > span:hover,
+    > span:focus,
+    > a,
+    > a:hover,
+    > a:focus {
+      color: #666;
+    }
+  }
+} 
+ 
   //Create the sidebar skin
   .skin-dark-sidebar(#fff);
 

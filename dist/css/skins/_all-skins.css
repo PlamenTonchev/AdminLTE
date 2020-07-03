@@ -381,6 +381,41 @@
   background: transparent;
   box-shadow: none;
 }
+.skin-black .pagination > li {
+  display: inline;
+}
+.skin-black .pagination > li > a,
+.skin-black .pagination > li > span {
+  color: #222d32;
+}
+.skin-black .pagination > li > a:hover,
+.skin-black .pagination > li > span:hover,
+.skin-black .pagination > li > a:focus,
+.skin-black .pagination > li > span:focus {
+  color: #11171a;
+}
+.skin-black .pagination > .active > a,
+.skin-black .pagination > .active > span {
+  color: #111111;
+  background-color: #e1e1e1;
+  border-color: #e1e1e1;
+}
+.skin-black .pagination > .active > a:hover,
+.skin-black .pagination > .active > span:hover,
+.skin-black .pagination > .active > a:focus,
+.skin-black .pagination > .active > span:focus {
+  color: #111111;
+  background-color: #d5d5d5;
+  border-color: #d5d5d5;
+}
+.skin-black .pagination > .disabled > span,
+.skin-black .pagination > .disabled > span:hover,
+.skin-black .pagination > .disabled > span:focus,
+.skin-black .pagination > .disabled > a,
+.skin-black .pagination > .disabled > a:hover,
+.skin-black .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-black .wrapper,
 .skin-black .main-sidebar,
 .skin-black .left-side {
@@ -541,6 +576,41 @@
   background: transparent;
   box-shadow: none;
 }
+.skin-black-light .pagination > li {
+  display: inline;
+}
+.skin-black-light .pagination > li > a,
+.skin-black-light .pagination > li > span {
+  color: #222d32;
+}
+.skin-black-light .pagination > li > a:hover,
+.skin-black-light .pagination > li > span:hover,
+.skin-black-light .pagination > li > a:focus,
+.skin-black-light .pagination > li > span:focus {
+  color: #11171a;
+}
+.skin-black-light .pagination > .active > a,
+.skin-black-light .pagination > .active > span {
+  color: #111111;
+  background-color: #e1e1e1;
+  border-color: #e1e1e1;
+}
+.skin-black-light .pagination > .active > a:hover,
+.skin-black-light .pagination > .active > span:hover,
+.skin-black-light .pagination > .active > a:focus,
+.skin-black-light .pagination > .active > span:focus {
+  color: #111111;
+  background-color: #d5d5d5;
+  border-color: #d5d5d5;
+}
+.skin-black-light .pagination > .disabled > span,
+.skin-black-light .pagination > .disabled > span:hover,
+.skin-black-light .pagination > .disabled > span:focus,
+.skin-black-light .pagination > .disabled > a,
+.skin-black-light .pagination > .disabled > a:hover,
+.skin-black-light .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-black-light .wrapper,
 .skin-black-light .main-sidebar,
 .skin-black-light .left-side {
@@ -693,6 +763,41 @@
 .skin-green .content-header {
   background: transparent;
 }
+.skin-green .pagination > li {
+  display: inline;
+}
+.skin-green .pagination > li > a,
+.skin-green .pagination > li > span {
+  color: #00a65a;
+}
+.skin-green .pagination > li > a:hover,
+.skin-green .pagination > li > span:hover,
+.skin-green .pagination > li > a:focus,
+.skin-green .pagination > li > span:focus {
+  color: #007d44;
+}
+.skin-green .pagination > .active > a,
+.skin-green .pagination > .active > span {
+  color: #ffffff;
+  background-color: #007d44;
+  border-color: #007d44;
+}
+.skin-green .pagination > .active > a:hover,
+.skin-green .pagination > .active > span:hover,
+.skin-green .pagination > .active > a:focus,
+.skin-green .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #00542e;
+  border-color: #00542e;
+}
+.skin-green .pagination > .disabled > span,
+.skin-green .pagination > .disabled > span:hover,
+.skin-green .pagination > .disabled > span:focus,
+.skin-green .pagination > .disabled > a,
+.skin-green .pagination > .disabled > a:hover,
+.skin-green .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-green .wrapper,
 .skin-green .main-sidebar,
 .skin-green .left-side {
@@ -827,6 +932,41 @@
 .skin-green-light .content-header {
   background: transparent;
 }
+.skin-green-light .pagination > li {
+  display: inline;
+}
+.skin-green-light .pagination > li > a,
+.skin-green-light .pagination > li > span {
+  color: #00a65a;
+}
+.skin-green-light .pagination > li > a:hover,
+.skin-green-light .pagination > li > span:hover,
+.skin-green-light .pagination > li > a:focus,
+.skin-green-light .pagination > li > span:focus {
+  color: #007d44;
+}
+.skin-green-light .pagination > .active > a,
+.skin-green-light .pagination > .active > span {
+  color: #ffffff;
+  background-color: #007d44;
+  border-color: #007d44;
+}
+.skin-green-light .pagination > .active > a:hover,
+.skin-green-light .pagination > .active > span:hover,
+.skin-green-light .pagination > .active > a:focus,
+.skin-green-light .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #00542e;
+  border-color: #00542e;
+}
+.skin-green-light .pagination > .disabled > span,
+.skin-green-light .pagination > .disabled > span:hover,
+.skin-green-light .pagination > .disabled > span:focus,
+.skin-green-light .pagination > .disabled > a,
+.skin-green-light .pagination > .disabled > a:hover,
+.skin-green-light .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-green-light .wrapper,
 .skin-green-light .main-sidebar,
 .skin-green-light .left-side {
@@ -925,6 +1065,102 @@
  * Skin: Red
  * ---------
  */
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #3c8dbc;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  margin-left: -1px;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  z-index: 2;
+  color: #72afd2;
+  background-color: #eeeeee;
+  border-color: #dddddd;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 3;
+  color: #ffffff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+  cursor: default;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #777777;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  cursor: not-allowed;
+}
+.pagination-lg > li > a,
+.pagination-lg > li > span {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+}
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span {
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span {
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.pagination-sm > li > a,
+.pagination-sm > li > span {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.pagination-sm > li:first-child > a,
+.pagination-sm > li:first-child > span {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.pagination-sm > li:last-child > a,
+.pagination-sm > li:last-child > span {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
 .skin-red .main-header .navbar {
   background-color: #dd4b39;
 }
@@ -985,26 +1221,26 @@
 .skin-red .pagination > li > a,
 .skin-red .pagination > li > span {
   color: #dd4b39;
-  background-color: #ffffff;
-  border: 1px solid #dd4b39;
 }
 .skin-red .pagination > li > a:hover,
 .skin-red .pagination > li > span:hover,
 .skin-red .pagination > li > a:focus,
 .skin-red .pagination > li > span:focus {
-  color: #d73925;
-  background-color: #eeeeee;
-  border-color: #d73925;
+  color: #ca3523;
 }
 .skin-red .pagination > .active > a,
-.skin-red .pagination > .active > span,
+.skin-red .pagination > .active > span {
+  color: #ffffff;
+  background-color: #ca3523;
+  border-color: #ca3523;
+}
 .skin-red .pagination > .active > a:hover,
 .skin-red .pagination > .active > span:hover,
 .skin-red .pagination > .active > a:focus,
 .skin-red .pagination > .active > span:focus {
-  color: #c23321;
-  background-color: #337ab7;
-  border-color: #c23321;
+  color: #ffffff;
+  background-color: #a82c1d;
+  border-color: #a82c1d;
 }
 .skin-red .pagination > .disabled > span,
 .skin-red .pagination > .disabled > span:hover,
@@ -1012,9 +1248,7 @@
 .skin-red .pagination > .disabled > a,
 .skin-red .pagination > .disabled > a:hover,
 .skin-red .pagination > .disabled > a:focus {
-  color: #e8867a;
-  background-color: #ffffff;
-  border-color: #e8867a;
+  color: #666;
 }
 .skin-red .wrapper,
 .skin-red .main-sidebar,
@@ -1149,6 +1383,41 @@
 }
 .skin-red-light .content-header {
   background: transparent;
+}
+.skin-red-light .pagination > li {
+  display: inline;
+}
+.skin-red-light .pagination > li > a,
+.skin-red-light .pagination > li > span {
+  color: #dd4b39;
+}
+.skin-red-light .pagination > li > a:hover,
+.skin-red-light .pagination > li > span:hover,
+.skin-red-light .pagination > li > a:focus,
+.skin-red-light .pagination > li > span:focus {
+  color: #ca3523;
+}
+.skin-red-light .pagination > .active > a,
+.skin-red-light .pagination > .active > span {
+  color: #ffffff;
+  background-color: #ca3523;
+  border-color: #ca3523;
+}
+.skin-red-light .pagination > .active > a:hover,
+.skin-red-light .pagination > .active > span:hover,
+.skin-red-light .pagination > .active > a:focus,
+.skin-red-light .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #a82c1d;
+  border-color: #a82c1d;
+}
+.skin-red-light .pagination > .disabled > span,
+.skin-red-light .pagination > .disabled > span:hover,
+.skin-red-light .pagination > .disabled > span:focus,
+.skin-red-light .pagination > .disabled > a,
+.skin-red-light .pagination > .disabled > a:hover,
+.skin-red-light .pagination > .disabled > a:focus {
+  color: #666;
 }
 .skin-red-light .wrapper,
 .skin-red-light .main-sidebar,
@@ -1302,6 +1571,41 @@
 .skin-yellow .content-header {
   background: transparent;
 }
+.skin-yellow .pagination > li {
+  display: inline;
+}
+.skin-yellow .pagination > li > a,
+.skin-yellow .pagination > li > span {
+  color: #f39c12;
+}
+.skin-yellow .pagination > li > a:hover,
+.skin-yellow .pagination > li > span:hover,
+.skin-yellow .pagination > li > a:focus,
+.skin-yellow .pagination > li > span:focus {
+  color: #d2850b;
+}
+.skin-yellow .pagination > .active > a,
+.skin-yellow .pagination > .active > span {
+  color: #ffffff;
+  background-color: #d2850b;
+  border-color: #d2850b;
+}
+.skin-yellow .pagination > .active > a:hover,
+.skin-yellow .pagination > .active > span:hover,
+.skin-yellow .pagination > .active > a:focus,
+.skin-yellow .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #ab6c09;
+  border-color: #ab6c09;
+}
+.skin-yellow .pagination > .disabled > span,
+.skin-yellow .pagination > .disabled > span:hover,
+.skin-yellow .pagination > .disabled > span:focus,
+.skin-yellow .pagination > .disabled > a,
+.skin-yellow .pagination > .disabled > a:hover,
+.skin-yellow .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-yellow .wrapper,
 .skin-yellow .main-sidebar,
 .skin-yellow .left-side {
@@ -1435,6 +1739,41 @@
 }
 .skin-yellow-light .content-header {
   background: transparent;
+}
+.skin-yellow-light .pagination > li {
+  display: inline;
+}
+.skin-yellow-light .pagination > li > a,
+.skin-yellow-light .pagination > li > span {
+  color: #f39c12;
+}
+.skin-yellow-light .pagination > li > a:hover,
+.skin-yellow-light .pagination > li > span:hover,
+.skin-yellow-light .pagination > li > a:focus,
+.skin-yellow-light .pagination > li > span:focus {
+  color: #d2850b;
+}
+.skin-yellow-light .pagination > .active > a,
+.skin-yellow-light .pagination > .active > span {
+  color: #ffffff;
+  background-color: #d2850b;
+  border-color: #d2850b;
+}
+.skin-yellow-light .pagination > .active > a:hover,
+.skin-yellow-light .pagination > .active > span:hover,
+.skin-yellow-light .pagination > .active > a:focus,
+.skin-yellow-light .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #ab6c09;
+  border-color: #ab6c09;
+}
+.skin-yellow-light .pagination > .disabled > span,
+.skin-yellow-light .pagination > .disabled > span:hover,
+.skin-yellow-light .pagination > .disabled > span:focus,
+.skin-yellow-light .pagination > .disabled > a,
+.skin-yellow-light .pagination > .disabled > a:hover,
+.skin-yellow-light .pagination > .disabled > a:focus {
+  color: #666;
 }
 .skin-yellow-light .wrapper,
 .skin-yellow-light .main-sidebar,
@@ -1588,6 +1927,41 @@
 .skin-purple .content-header {
   background: transparent;
 }
+.skin-purple .pagination > li {
+  display: inline;
+}
+.skin-purple .pagination > li > a,
+.skin-purple .pagination > li > span {
+  color: #605ca8;
+}
+.skin-purple .pagination > li > a:hover,
+.skin-purple .pagination > li > span:hover,
+.skin-purple .pagination > li > a:focus,
+.skin-purple .pagination > li > span:focus {
+  color: #504c8f;
+}
+.skin-purple .pagination > .active > a,
+.skin-purple .pagination > .active > span {
+  color: #ffffff;
+  background-color: #504c8f;
+  border-color: #504c8f;
+}
+.skin-purple .pagination > .active > a:hover,
+.skin-purple .pagination > .active > span:hover,
+.skin-purple .pagination > .active > a:focus,
+.skin-purple .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #413e74;
+  border-color: #413e74;
+}
+.skin-purple .pagination > .disabled > span,
+.skin-purple .pagination > .disabled > span:hover,
+.skin-purple .pagination > .disabled > span:focus,
+.skin-purple .pagination > .disabled > a,
+.skin-purple .pagination > .disabled > a:hover,
+.skin-purple .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-purple .wrapper,
 .skin-purple .main-sidebar,
 .skin-purple .left-side {
@@ -1721,6 +2095,41 @@
 }
 .skin-purple-light .content-header {
   background: transparent;
+}
+.skin-purple-light .pagination > li {
+  display: inline;
+}
+.skin-purple-light .pagination > li > a,
+.skin-purple-light .pagination > li > span {
+  color: #605ca8;
+}
+.skin-purple-light .pagination > li > a:hover,
+.skin-purple-light .pagination > li > span:hover,
+.skin-purple-light .pagination > li > a:focus,
+.skin-purple-light .pagination > li > span:focus {
+  color: #504c8f;
+}
+.skin-purple-light .pagination > .active > a,
+.skin-purple-light .pagination > .active > span {
+  color: #ffffff;
+  background-color: #504c8f;
+  border-color: #504c8f;
+}
+.skin-purple-light .pagination > .active > a:hover,
+.skin-purple-light .pagination > .active > span:hover,
+.skin-purple-light .pagination > .active > a:focus,
+.skin-purple-light .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #413e74;
+  border-color: #413e74;
+}
+.skin-purple-light .pagination > .disabled > span,
+.skin-purple-light .pagination > .disabled > span:hover,
+.skin-purple-light .pagination > .disabled > span:focus,
+.skin-purple-light .pagination > .disabled > a,
+.skin-purple-light .pagination > .disabled > a:hover,
+.skin-purple-light .pagination > .disabled > a:focus {
+  color: #666;
 }
 .skin-purple-light .wrapper,
 .skin-purple-light .main-sidebar,
@@ -1874,6 +2283,41 @@
 .skin-white .content-header {
   background: transparent;
 }
+.skin-white .pagination > li {
+  display: inline;
+}
+.skin-white .pagination > li > a,
+.skin-white .pagination > li > span {
+  color: #222d32;
+}
+.skin-white .pagination > li > a:hover,
+.skin-white .pagination > li > span:hover,
+.skin-white .pagination > li > a:focus,
+.skin-white .pagination > li > span:focus {
+  color: #11171a;
+}
+.skin-white .pagination > .active > a,
+.skin-white .pagination > .active > span {
+  color: #ffffff;
+  background-color: #11171a;
+  border-color: #11171a;
+}
+.skin-white .pagination > .active > a:hover,
+.skin-white .pagination > .active > span:hover,
+.skin-white .pagination > .active > a:focus,
+.skin-white .pagination > .active > span:focus {
+  color: #222d32;
+  background-color: #010101;
+  border-color: #010101;
+}
+.skin-white .pagination > .disabled > span,
+.skin-white .pagination > .disabled > span:hover,
+.skin-white .pagination > .disabled > span:focus,
+.skin-white .pagination > .disabled > a,
+.skin-white .pagination > .disabled > a:hover,
+.skin-white .pagination > .disabled > a:focus {
+  color: #435963;
+}
 .skin-white .wrapper,
 .skin-white .main-sidebar,
 .skin-white .left-side {
@@ -2007,6 +2451,41 @@
 }
 .skin-white-light .content-header {
   background: transparent;
+}
+.skin-white-light .pagination > li {
+  display: inline;
+}
+.skin-white-light .pagination > li > a,
+.skin-white-light .pagination > li > span {
+  color: #222d32;
+}
+.skin-white-light .pagination > li > a:hover,
+.skin-white-light .pagination > li > span:hover,
+.skin-white-light .pagination > li > a:focus,
+.skin-white-light .pagination > li > span:focus {
+  color: #11171a;
+}
+.skin-white-light .pagination > .active > a,
+.skin-white-light .pagination > .active > span {
+  color: #ffffff;
+  background-color: #11171a;
+  border-color: #11171a;
+}
+.skin-white-light .pagination > .active > a:hover,
+.skin-white-light .pagination > .active > span:hover,
+.skin-white-light .pagination > .active > a:focus,
+.skin-white-light .pagination > .active > span:focus {
+  color: #222d32;
+  background-color: #010101;
+  border-color: #010101;
+}
+.skin-white-light .pagination > .disabled > span,
+.skin-white-light .pagination > .disabled > span:hover,
+.skin-white-light .pagination > .disabled > span:focus,
+.skin-white-light .pagination > .disabled > a,
+.skin-white-light .pagination > .disabled > a:hover,
+.skin-white-light .pagination > .disabled > a:focus {
+  color: #435963;
 }
 .skin-white-light .wrapper,
 .skin-white-light .main-sidebar,
@@ -2160,6 +2639,41 @@
 .skin-olive .content-header {
   background: transparent;
 }
+.skin-olive .pagination > li {
+  display: inline;
+}
+.skin-olive .pagination > li > a,
+.skin-olive .pagination > li > span {
+  color: #808000;
+}
+.skin-olive .pagination > li > a:hover,
+.skin-olive .pagination > li > span:hover,
+.skin-olive .pagination > li > a:focus,
+.skin-olive .pagination > li > span:focus {
+  color: #575700;
+}
+.skin-olive .pagination > .active > a,
+.skin-olive .pagination > .active > span {
+  color: #ffffff;
+  background-color: #575700;
+  border-color: #575700;
+}
+.skin-olive .pagination > .active > a:hover,
+.skin-olive .pagination > .active > span:hover,
+.skin-olive .pagination > .active > a:focus,
+.skin-olive .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #2e2e00;
+  border-color: #2e2e00;
+}
+.skin-olive .pagination > .disabled > span,
+.skin-olive .pagination > .disabled > span:hover,
+.skin-olive .pagination > .disabled > span:focus,
+.skin-olive .pagination > .disabled > a,
+.skin-olive .pagination > .disabled > a:hover,
+.skin-olive .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-olive .wrapper,
 .skin-olive .main-sidebar,
 .skin-olive .left-side {
@@ -2293,6 +2807,41 @@
 }
 .skin-olive-light .content-header {
   background: transparent;
+}
+.skin-olive-light .pagination > li {
+  display: inline;
+}
+.skin-olive-light .pagination > li > a,
+.skin-olive-light .pagination > li > span {
+  color: #808000;
+}
+.skin-olive-light .pagination > li > a:hover,
+.skin-olive-light .pagination > li > span:hover,
+.skin-olive-light .pagination > li > a:focus,
+.skin-olive-light .pagination > li > span:focus {
+  color: #575700;
+}
+.skin-olive-light .pagination > .active > a,
+.skin-olive-light .pagination > .active > span {
+  color: #ffffff;
+  background-color: #575700;
+  border-color: #575700;
+}
+.skin-olive-light .pagination > .active > a:hover,
+.skin-olive-light .pagination > .active > span:hover,
+.skin-olive-light .pagination > .active > a:focus,
+.skin-olive-light .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #2e2e00;
+  border-color: #2e2e00;
+}
+.skin-olive-light .pagination > .disabled > span,
+.skin-olive-light .pagination > .disabled > span:hover,
+.skin-olive-light .pagination > .disabled > span:focus,
+.skin-olive-light .pagination > .disabled > a,
+.skin-olive-light .pagination > .disabled > a:hover,
+.skin-olive-light .pagination > .disabled > a:focus {
+  color: #666;
 }
 .skin-olive-light .wrapper,
 .skin-olive-light .main-sidebar,
@@ -2447,6 +2996,41 @@
 .skin-teal .content-header {
   background: transparent;
 }
+.skin-teal .pagination > li {
+  display: inline;
+}
+.skin-teal .pagination > li > a,
+.skin-teal .pagination > li > span {
+  color: #39cccc;
+}
+.skin-teal .pagination > li > a:hover,
+.skin-teal .pagination > li > span:hover,
+.skin-teal .pagination > li > a:focus,
+.skin-teal .pagination > li > span:focus {
+  color: #2dafaf;
+}
+.skin-teal .pagination > .active > a,
+.skin-teal .pagination > .active > span {
+  color: #111111;
+  background-color: #2dafaf;
+  border-color: #2dafaf;
+}
+.skin-teal .pagination > .active > a:hover,
+.skin-teal .pagination > .active > span:hover,
+.skin-teal .pagination > .active > a:focus,
+.skin-teal .pagination > .active > span:focus {
+  color: #111111;
+  background-color: #258f8f;
+  border-color: #258f8f;
+}
+.skin-teal .pagination > .disabled > span,
+.skin-teal .pagination > .disabled > span:hover,
+.skin-teal .pagination > .disabled > span:focus,
+.skin-teal .pagination > .disabled > a,
+.skin-teal .pagination > .disabled > a:hover,
+.skin-teal .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-teal .wrapper,
 .skin-teal .main-sidebar,
 .skin-teal .left-side {
@@ -2581,6 +3165,41 @@
 }
 .skin-teal-light .content-header {
   background: transparent;
+}
+.skin-teal-light .pagination > li {
+  display: inline;
+}
+.skin-teal-light .pagination > li > a,
+.skin-teal-light .pagination > li > span {
+  color: #39cccc;
+}
+.skin-teal-light .pagination > li > a:hover,
+.skin-teal-light .pagination > li > span:hover,
+.skin-teal-light .pagination > li > a:focus,
+.skin-teal-light .pagination > li > span:focus {
+  color: #2dafaf;
+}
+.skin-teal-light .pagination > .active > a,
+.skin-teal-light .pagination > .active > span {
+  color: #111111;
+  background-color: #2dafaf;
+  border-color: #2dafaf;
+}
+.skin-teal-light .pagination > .active > a:hover,
+.skin-teal-light .pagination > .active > span:hover,
+.skin-teal-light .pagination > .active > a:focus,
+.skin-teal-light .pagination > .active > span:focus {
+  color: #111111;
+  background-color: #258f8f;
+  border-color: #258f8f;
+}
+.skin-teal-light .pagination > .disabled > span,
+.skin-teal-light .pagination > .disabled > span:hover,
+.skin-teal-light .pagination > .disabled > span:focus,
+.skin-teal-light .pagination > .disabled > a,
+.skin-teal-light .pagination > .disabled > a:hover,
+.skin-teal-light .pagination > .disabled > a:focus {
+  color: #666;
 }
 .skin-teal-light .wrapper,
 .skin-teal-light .main-sidebar,
@@ -2754,6 +3373,41 @@
   background: transparent;
   box-shadow: none;
 }
+.skin-beige .pagination > li {
+  display: inline;
+}
+.skin-beige .pagination > li > a,
+.skin-beige .pagination > li > span {
+  color: #39cccc;
+}
+.skin-beige .pagination > li > a:hover,
+.skin-beige .pagination > li > span:hover,
+.skin-beige .pagination > li > a:focus,
+.skin-beige .pagination > li > span:focus {
+  color: #e5e5a3;
+}
+.skin-beige .pagination > .active > a,
+.skin-beige .pagination > .active > span {
+  color: #111111;
+  background-color: #e5e5a3;
+  border-color: #e5e5a3;
+}
+.skin-beige .pagination > .active > a:hover,
+.skin-beige .pagination > .active > span:hover,
+.skin-beige .pagination > .active > a:focus,
+.skin-beige .pagination > .active > span:focus {
+  color: #111111;
+  background-color: #dcdc83;
+  border-color: #dcdc83;
+}
+.skin-beige .pagination > .disabled > span,
+.skin-beige .pagination > .disabled > span:hover,
+.skin-beige .pagination > .disabled > span:focus,
+.skin-beige .pagination > .disabled > a,
+.skin-beige .pagination > .disabled > a:hover,
+.skin-beige .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-beige .wrapper,
 .skin-beige .main-sidebar,
 .skin-beige .left-side {
@@ -2915,6 +3569,41 @@
   background: transparent;
   box-shadow: none;
 }
+.skin-beige-light .pagination > li {
+  display: inline;
+}
+.skin-beige-light .pagination > li > a,
+.skin-beige-light .pagination > li > span {
+  color: #39cccc;
+}
+.skin-beige-light .pagination > li > a:hover,
+.skin-beige-light .pagination > li > span:hover,
+.skin-beige-light .pagination > li > a:focus,
+.skin-beige-light .pagination > li > span:focus {
+  color: #e5e5a3;
+}
+.skin-beige-light .pagination > .active > a,
+.skin-beige-light .pagination > .active > span {
+  color: #111111;
+  background-color: #e5e5a3;
+  border-color: #e5e5a3;
+}
+.skin-beige-light .pagination > .active > a:hover,
+.skin-beige-light .pagination > .active > span:hover,
+.skin-beige-light .pagination > .active > a:focus,
+.skin-beige-light .pagination > .active > span:focus {
+  color: #111111;
+  background-color: #dcdc83;
+  border-color: #dcdc83;
+}
+.skin-beige-light .pagination > .disabled > span,
+.skin-beige-light .pagination > .disabled > span:hover,
+.skin-beige-light .pagination > .disabled > span:focus,
+.skin-beige-light .pagination > .disabled > a,
+.skin-beige-light .pagination > .disabled > a:hover,
+.skin-beige-light .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-beige-light .wrapper,
 .skin-beige-light .main-sidebar,
 .skin-beige-light .left-side {
@@ -3074,6 +3763,41 @@
 .skin-maroon .content-header {
   background: transparent;
 }
+.skin-maroon .pagination > li {
+  display: inline;
+}
+.skin-maroon .pagination > li > a,
+.skin-maroon .pagination > li > span {
+  color: #996633;
+}
+.skin-maroon .pagination > li > a:hover,
+.skin-maroon .pagination > li > span:hover,
+.skin-maroon .pagination > li > a:focus,
+.skin-maroon .pagination > li > span:focus {
+  color: #7a5229;
+}
+.skin-maroon .pagination > .active > a,
+.skin-maroon .pagination > .active > span {
+  color: #ffffff;
+  background-color: #7a5229;
+  border-color: #7a5229;
+}
+.skin-maroon .pagination > .active > a:hover,
+.skin-maroon .pagination > .active > span:hover,
+.skin-maroon .pagination > .active > a:focus,
+.skin-maroon .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #5c3d1f;
+  border-color: #5c3d1f;
+}
+.skin-maroon .pagination > .disabled > span,
+.skin-maroon .pagination > .disabled > span:hover,
+.skin-maroon .pagination > .disabled > span:focus,
+.skin-maroon .pagination > .disabled > a,
+.skin-maroon .pagination > .disabled > a:hover,
+.skin-maroon .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-maroon .wrapper,
 .skin-maroon .main-sidebar,
 .skin-maroon .left-side {
@@ -3207,6 +3931,41 @@
 }
 .skin-maroon-light .content-header {
   background: transparent;
+}
+.skin-maroon-light .pagination > li {
+  display: inline;
+}
+.skin-maroon-light .pagination > li > a,
+.skin-maroon-light .pagination > li > span {
+  color: #996633;
+}
+.skin-maroon-light .pagination > li > a:hover,
+.skin-maroon-light .pagination > li > span:hover,
+.skin-maroon-light .pagination > li > a:focus,
+.skin-maroon-light .pagination > li > span:focus {
+  color: #7a5229;
+}
+.skin-maroon-light .pagination > .active > a,
+.skin-maroon-light .pagination > .active > span {
+  color: #ffffff;
+  background-color: #7a5229;
+  border-color: #7a5229;
+}
+.skin-maroon-light .pagination > .active > a:hover,
+.skin-maroon-light .pagination > .active > span:hover,
+.skin-maroon-light .pagination > .active > a:focus,
+.skin-maroon-light .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #5c3d1f;
+  border-color: #5c3d1f;
+}
+.skin-maroon-light .pagination > .disabled > span,
+.skin-maroon-light .pagination > .disabled > span:hover,
+.skin-maroon-light .pagination > .disabled > span:focus,
+.skin-maroon-light .pagination > .disabled > a,
+.skin-maroon-light .pagination > .disabled > a:hover,
+.skin-maroon-light .pagination > .disabled > a:focus {
+  color: #666;
 }
 .skin-maroon-light .wrapper,
 .skin-maroon-light .main-sidebar,
@@ -3360,6 +4119,41 @@
 .skin-pink .content-header {
   background: transparent;
 }
+.skin-pink .pagination > li {
+  display: inline;
+}
+.skin-pink .pagination > li > a,
+.skin-pink .pagination > li > span {
+  color: #f457c3;
+}
+.skin-pink .pagination > li > a:hover,
+.skin-pink .pagination > li > span:hover,
+.skin-pink .pagination > li > a:focus,
+.skin-pink .pagination > li > span:focus {
+  color: #f131b5;
+}
+.skin-pink .pagination > .active > a,
+.skin-pink .pagination > .active > span {
+  color: #ffffff;
+  background-color: #f131b5;
+  border-color: #f131b5;
+}
+.skin-pink .pagination > .active > a:hover,
+.skin-pink .pagination > .active > span:hover,
+.skin-pink .pagination > .active > a:focus,
+.skin-pink .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #ea0fa6;
+  border-color: #ea0fa6;
+}
+.skin-pink .pagination > .disabled > span,
+.skin-pink .pagination > .disabled > span:hover,
+.skin-pink .pagination > .disabled > span:focus,
+.skin-pink .pagination > .disabled > a,
+.skin-pink .pagination > .disabled > a:hover,
+.skin-pink .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-pink .wrapper,
 .skin-pink .main-sidebar,
 .skin-pink .left-side {
@@ -3493,6 +4287,41 @@
 }
 .skin-pink-light .content-header {
   background: transparent;
+}
+.skin-pink-light .pagination > li {
+  display: inline;
+}
+.skin-pink-light .pagination > li > a,
+.skin-pink-light .pagination > li > span {
+  color: #f457c3;
+}
+.skin-pink-light .pagination > li > a:hover,
+.skin-pink-light .pagination > li > span:hover,
+.skin-pink-light .pagination > li > a:focus,
+.skin-pink-light .pagination > li > span:focus {
+  color: #f131b5;
+}
+.skin-pink-light .pagination > .active > a,
+.skin-pink-light .pagination > .active > span {
+  color: #ffffff;
+  background-color: #f131b5;
+  border-color: #f131b5;
+}
+.skin-pink-light .pagination > .active > a:hover,
+.skin-pink-light .pagination > .active > span:hover,
+.skin-pink-light .pagination > .active > a:focus,
+.skin-pink-light .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #ea0fa6;
+  border-color: #ea0fa6;
+}
+.skin-pink-light .pagination > .disabled > span,
+.skin-pink-light .pagination > .disabled > span:hover,
+.skin-pink-light .pagination > .disabled > span:focus,
+.skin-pink-light .pagination > .disabled > a,
+.skin-pink-light .pagination > .disabled > a:hover,
+.skin-pink-light .pagination > .disabled > a:focus {
+  color: #666;
 }
 .skin-pink-light .wrapper,
 .skin-pink-light .main-sidebar,

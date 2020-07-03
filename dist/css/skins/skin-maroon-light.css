@@ -56,6 +56,41 @@
 .skin-maroon-light .content-header {
   background: transparent;
 }
+.skin-maroon-light .pagination > li {
+  display: inline;
+}
+.skin-maroon-light .pagination > li > a,
+.skin-maroon-light .pagination > li > span {
+  color: #996633;
+}
+.skin-maroon-light .pagination > li > a:hover,
+.skin-maroon-light .pagination > li > span:hover,
+.skin-maroon-light .pagination > li > a:focus,
+.skin-maroon-light .pagination > li > span:focus {
+  color: #7a5229;
+}
+.skin-maroon-light .pagination > .active > a,
+.skin-maroon-light .pagination > .active > span {
+  color: #ffffff;
+  background-color: #7a5229;
+  border-color: #7a5229;
+}
+.skin-maroon-light .pagination > .active > a:hover,
+.skin-maroon-light .pagination > .active > span:hover,
+.skin-maroon-light .pagination > .active > a:focus,
+.skin-maroon-light .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #5c3d1f;
+  border-color: #5c3d1f;
+}
+.skin-maroon-light .pagination > .disabled > span,
+.skin-maroon-light .pagination > .disabled > span:hover,
+.skin-maroon-light .pagination > .disabled > span:focus,
+.skin-maroon-light .pagination > .disabled > a,
+.skin-maroon-light .pagination > .disabled > a:hover,
+.skin-maroon-light .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-maroon-light .wrapper,
 .skin-maroon-light .main-sidebar,
 .skin-maroon-light .left-side {

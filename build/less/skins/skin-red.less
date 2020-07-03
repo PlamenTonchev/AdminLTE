@@ -4,6 +4,7 @@
  */
 @import "../../bootstrap-less/mixins.less";
 @import "../../bootstrap-less/variables.less";
+@import "../../bootstrap-less/pagination.less";
 @import "../variables.less";
 @import "../mixins.less";
 
@@ -49,53 +50,57 @@
     background: transparent;
   }
   
-  // Pagination (multiple pages)
-  .pagination {
-      > li {
-	    display: inline; // Remove list-style and block-level defaults
-  	  > a,
-	  > span {
-	    color: @red;
-	    background-color: @pagination-bg;
-	    border: 1px solid @red;
-	  }
-    }
 
-    > li > a,
-    > li > span {
-  	  &:hover,
-	  &:focus {
-	    color: darken(@red, 5%);
-	    background-color: @pagination-hover-bg;
-	    border-color: darken(@red, 5%);
-	  }
-    }
-
-    > .active > a,
-    > .active > span {
-	  &,
-	  &:hover,
-	  &:focus {
-	    color: darken(@red, 10%);
-	    background-color: @pagination-active-bg;
-	    border-color: darken(@red, 10%);
-	  }
-    }
-
-    > .disabled {
-	  > span,
-	  > span:hover,
-	  > span:focus,
-	  > a,
-	  > a:hover,
-	  > a:focus {
-		color: lighten(@red, 15%);	 
-	    background-color: @pagination-disabled-bg;
-	    border-color: lighten(@red, 15%);
-	  }
+//
+// Pagination (multiple pages)
+// --------------------------------------------------
+.pagination {
+  > li {
+    display: inline; // Remove list-style and block-level defaults
+    > a,
+    > span {
+      color: @red;
     }
   }
-  
+
+  > li > a,
+  > li > span {
+    &:hover,
+    &:focus {
+      color: darken(@red, 8%);
+    }
+  }
+
+  > .active > a,
+  > .active > span {
+      color: @pagination-bg;
+      background-color: darken(@red, 8%);
+      border-color: darken(@red, 8%);
+  }
+
+  > .active > a,
+  > .active > span {
+    &:hover,
+    &:focus {
+      color: @pagination-bg;
+      background-color: darken(@red, 16%);
+      border-color: darken(@red, 16%);
+    }
+  }
+
+  > .disabled {
+    > span,
+    > span:hover,
+    > span:focus,
+    > a,
+    > a:hover,
+    > a:focus {
+      color: #666;
+    }
+  }
+}
+
+
 
   //Create the sidebar skin
   .skin-dark-sidebar(@red);

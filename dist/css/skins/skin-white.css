@@ -56,6 +56,41 @@
 .skin-white .content-header {
   background: transparent;
 }
+.skin-white .pagination > li {
+  display: inline;
+}
+.skin-white .pagination > li > a,
+.skin-white .pagination > li > span {
+  color: #222d32;
+}
+.skin-white .pagination > li > a:hover,
+.skin-white .pagination > li > span:hover,
+.skin-white .pagination > li > a:focus,
+.skin-white .pagination > li > span:focus {
+  color: #11171a;
+}
+.skin-white .pagination > .active > a,
+.skin-white .pagination > .active > span {
+  color: #ffffff;
+  background-color: #11171a;
+  border-color: #11171a;
+}
+.skin-white .pagination > .active > a:hover,
+.skin-white .pagination > .active > span:hover,
+.skin-white .pagination > .active > a:focus,
+.skin-white .pagination > .active > span:focus {
+  color: #222d32;
+  background-color: #010101;
+  border-color: #010101;
+}
+.skin-white .pagination > .disabled > span,
+.skin-white .pagination > .disabled > span:hover,
+.skin-white .pagination > .disabled > span:focus,
+.skin-white .pagination > .disabled > a,
+.skin-white .pagination > .disabled > a:hover,
+.skin-white .pagination > .disabled > a:focus {
+  color: #435963;
+}
 .skin-white .wrapper,
 .skin-white .main-sidebar,
 .skin-white .left-side {

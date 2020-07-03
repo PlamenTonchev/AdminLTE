@@ -56,6 +56,41 @@
 .skin-maroon .content-header {
   background: transparent;
 }
+.skin-maroon .pagination > li {
+  display: inline;
+}
+.skin-maroon .pagination > li > a,
+.skin-maroon .pagination > li > span {
+  color: #996633;
+}
+.skin-maroon .pagination > li > a:hover,
+.skin-maroon .pagination > li > span:hover,
+.skin-maroon .pagination > li > a:focus,
+.skin-maroon .pagination > li > span:focus {
+  color: #7a5229;
+}
+.skin-maroon .pagination > .active > a,
+.skin-maroon .pagination > .active > span {
+  color: #ffffff;
+  background-color: #7a5229;
+  border-color: #7a5229;
+}
+.skin-maroon .pagination > .active > a:hover,
+.skin-maroon .pagination > .active > span:hover,
+.skin-maroon .pagination > .active > a:focus,
+.skin-maroon .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #5c3d1f;
+  border-color: #5c3d1f;
+}
+.skin-maroon .pagination > .disabled > span,
+.skin-maroon .pagination > .disabled > span:hover,
+.skin-maroon .pagination > .disabled > span:focus,
+.skin-maroon .pagination > .disabled > a,
+.skin-maroon .pagination > .disabled > a:hover,
+.skin-maroon .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-maroon .wrapper,
 .skin-maroon .main-sidebar,
 .skin-maroon .left-side {

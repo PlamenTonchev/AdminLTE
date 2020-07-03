@@ -56,6 +56,41 @@
 .skin-pink .content-header {
   background: transparent;
 }
+.skin-pink .pagination > li {
+  display: inline;
+}
+.skin-pink .pagination > li > a,
+.skin-pink .pagination > li > span {
+  color: #f457c3;
+}
+.skin-pink .pagination > li > a:hover,
+.skin-pink .pagination > li > span:hover,
+.skin-pink .pagination > li > a:focus,
+.skin-pink .pagination > li > span:focus {
+  color: #f131b5;
+}
+.skin-pink .pagination > .active > a,
+.skin-pink .pagination > .active > span {
+  color: #ffffff;
+  background-color: #f131b5;
+  border-color: #f131b5;
+}
+.skin-pink .pagination > .active > a:hover,
+.skin-pink .pagination > .active > span:hover,
+.skin-pink .pagination > .active > a:focus,
+.skin-pink .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #ea0fa6;
+  border-color: #ea0fa6;
+}
+.skin-pink .pagination > .disabled > span,
+.skin-pink .pagination > .disabled > span:hover,
+.skin-pink .pagination > .disabled > span:focus,
+.skin-pink .pagination > .disabled > a,
+.skin-pink .pagination > .disabled > a:hover,
+.skin-pink .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-pink .wrapper,
 .skin-pink .main-sidebar,
 .skin-pink .left-side {

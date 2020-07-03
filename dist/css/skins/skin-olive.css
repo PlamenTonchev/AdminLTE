@@ -56,6 +56,41 @@
 .skin-olive .content-header {
   background: transparent;
 }
+.skin-olive .pagination > li {
+  display: inline;
+}
+.skin-olive .pagination > li > a,
+.skin-olive .pagination > li > span {
+  color: #808000;
+}
+.skin-olive .pagination > li > a:hover,
+.skin-olive .pagination > li > span:hover,
+.skin-olive .pagination > li > a:focus,
+.skin-olive .pagination > li > span:focus {
+  color: #575700;
+}
+.skin-olive .pagination > .active > a,
+.skin-olive .pagination > .active > span {
+  color: #ffffff;
+  background-color: #575700;
+  border-color: #575700;
+}
+.skin-olive .pagination > .active > a:hover,
+.skin-olive .pagination > .active > span:hover,
+.skin-olive .pagination > .active > a:focus,
+.skin-olive .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #2e2e00;
+  border-color: #2e2e00;
+}
+.skin-olive .pagination > .disabled > span,
+.skin-olive .pagination > .disabled > span:hover,
+.skin-olive .pagination > .disabled > span:focus,
+.skin-olive .pagination > .disabled > a,
+.skin-olive .pagination > .disabled > a:hover,
+.skin-olive .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-olive .wrapper,
 .skin-olive .main-sidebar,
 .skin-olive .left-side {

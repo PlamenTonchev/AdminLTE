@@ -76,6 +76,41 @@
   background: transparent;
   box-shadow: none;
 }
+.skin-beige .pagination > li {
+  display: inline;
+}
+.skin-beige .pagination > li > a,
+.skin-beige .pagination > li > span {
+  color: #39cccc;
+}
+.skin-beige .pagination > li > a:hover,
+.skin-beige .pagination > li > span:hover,
+.skin-beige .pagination > li > a:focus,
+.skin-beige .pagination > li > span:focus {
+  color: #e5e5a3;
+}
+.skin-beige .pagination > .active > a,
+.skin-beige .pagination > .active > span {
+  color: #111111;
+  background-color: #e5e5a3;
+  border-color: #e5e5a3;
+}
+.skin-beige .pagination > .active > a:hover,
+.skin-beige .pagination > .active > span:hover,
+.skin-beige .pagination > .active > a:focus,
+.skin-beige .pagination > .active > span:focus {
+  color: #111111;
+  background-color: #dcdc83;
+  border-color: #dcdc83;
+}
+.skin-beige .pagination > .disabled > span,
+.skin-beige .pagination > .disabled > span:hover,
+.skin-beige .pagination > .disabled > span:focus,
+.skin-beige .pagination > .disabled > a,
+.skin-beige .pagination > .disabled > a:hover,
+.skin-beige .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-beige .wrapper,
 .skin-beige .main-sidebar,
 .skin-beige .left-side {

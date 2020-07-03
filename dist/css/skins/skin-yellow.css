@@ -56,6 +56,41 @@
 .skin-yellow .content-header {
   background: transparent;
 }
+.skin-yellow .pagination > li {
+  display: inline;
+}
+.skin-yellow .pagination > li > a,
+.skin-yellow .pagination > li > span {
+  color: #f39c12;
+}
+.skin-yellow .pagination > li > a:hover,
+.skin-yellow .pagination > li > span:hover,
+.skin-yellow .pagination > li > a:focus,
+.skin-yellow .pagination > li > span:focus {
+  color: #d2850b;
+}
+.skin-yellow .pagination > .active > a,
+.skin-yellow .pagination > .active > span {
+  color: #ffffff;
+  background-color: #d2850b;
+  border-color: #d2850b;
+}
+.skin-yellow .pagination > .active > a:hover,
+.skin-yellow .pagination > .active > span:hover,
+.skin-yellow .pagination > .active > a:focus,
+.skin-yellow .pagination > .active > span:focus {
+  color: #ffffff;
+  background-color: #ab6c09;
+  border-color: #ab6c09;
+}
+.skin-yellow .pagination > .disabled > span,
+.skin-yellow .pagination > .disabled > span:hover,
+.skin-yellow .pagination > .disabled > span:focus,
+.skin-yellow .pagination > .disabled > a,
+.skin-yellow .pagination > .disabled > a:hover,
+.skin-yellow .pagination > .disabled > a:focus {
+  color: #666;
+}
 .skin-yellow .wrapper,
 .skin-yellow .main-sidebar,
 .skin-yellow .left-side {

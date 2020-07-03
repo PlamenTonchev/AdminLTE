@@ -49,6 +49,55 @@
     background: transparent;
   }
 
+//
+// Pagination (multiple pages)
+// --------------------------------------------------
+.pagination {
+  > li {
+    display: inline; // Remove list-style and block-level defaults
+    > a,
+    > span {
+      color: @green;
+    }
+  }
+
+  > li > a,
+  > li > span {
+    &:hover,
+    &:focus {
+      color: darken(@green, 8%);
+    }
+  }
+
+  > .active > a,
+  > .active > span {
+      color: @pagination-bg;
+      background-color: darken(@green, 8%);
+      border-color: darken(@green, 8%);
+  }
+
+  > .active > a,
+  > .active > span {
+    &:hover,
+    &:focus {
+      color: @pagination-bg;
+      background-color: darken(@green, 16%);
+      border-color: darken(@green, 16%);
+    }
+  }
+
+  > .disabled {
+    > span,
+    > span:hover,
+    > span:focus,
+    > a,
+    > a:hover,
+    > a:focus {
+      color: #666;
+    }
+  }
+}
+
   //Create the sidebar skin
   .skin-light-sidebar(@green);
 
