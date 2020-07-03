@@ -56,6 +56,43 @@
 .skin-red .content-header {
   background: transparent;
 }
+.skin-red .pagination > li {
+  display: inline;
+}
+.skin-red .pagination > li > a,
+.skin-red .pagination > li > span {
+  color: #dd4b39;
+  background-color: #ffffff;
+  border: 1px solid #dd4b39;
+}
+.skin-red .pagination > li > a:hover,
+.skin-red .pagination > li > span:hover,
+.skin-red .pagination > li > a:focus,
+.skin-red .pagination > li > span:focus {
+  color: #d73925;
+  background-color: #eeeeee;
+  border-color: #d73925;
+}
+.skin-red .pagination > .active > a,
+.skin-red .pagination > .active > span,
+.skin-red .pagination > .active > a:hover,
+.skin-red .pagination > .active > span:hover,
+.skin-red .pagination > .active > a:focus,
+.skin-red .pagination > .active > span:focus {
+  color: #c23321;
+  background-color: #337ab7;
+  border-color: #c23321;
+}
+.skin-red .pagination > .disabled > span,
+.skin-red .pagination > .disabled > span:hover,
+.skin-red .pagination > .disabled > span:focus,
+.skin-red .pagination > .disabled > a,
+.skin-red .pagination > .disabled > a:hover,
+.skin-red .pagination > .disabled > a:focus {
+  color: #e8867a;
+  background-color: #ffffff;
+  border-color: #e8867a;
+}
 .skin-red .wrapper,
 .skin-red .main-sidebar,
 .skin-red .left-side {
