@@ -40,6 +40,17 @@
   }
 }
 
+// Remove border from form
+.control-sidebar-form {
+  input:focus {
+    border-color: transparent;
+  }
+}
+
+.control-sidebar-form{
+  overflow: visible;
+}
+
 // Open without slide over content
 .control-sidebar-open {
   .control-sidebar-bg,
@@ -63,6 +74,9 @@
     overflow-y: auto;
     padding-bottom: 50px;
   }
+}
+.control-sidebar-form input[type="text"][disabled] {
+  cursor: pointer !important;
 }
 
 // Control sidebar tabs
@@ -230,6 +244,78 @@
       }
     }
   }
+  //The sidebar form
+  .control-sidebar-form {
+    .border-radius(3px);
+    border: 1px solid lighten(@sidebar-dark-bg, 10%);
+    margin: 10px 10px;
+    input[type="text"], .btn-xs {
+      box-shadow: none;
+      background-color: lighten(@sidebar-dark-bg, 10%);
+      border: 1px solid transparent;
+      height: 22px;
+    }
+    input[type="text"] {
+      color: #eee;
+      .border-radius(2px, 0, 2px, 0);
+    }
+    .btn-xs {
+      color: #eee;
+      .border-radius(0, 2px, 0, 2px);
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: lighten(@sidebar-dark-bg, 15%);
+        color: #eee;
+	  }	  
+    }	
+  }
+
+  //Input group menu
+  .input-group-btn > .dropdown-menu {
+	min-width: 180px;
+	background-color: lighten(@sidebar-dark-bg, 10%);
+	border-color: transparent;
+    > li > a {
+		color: @sidebar-dark-color;
+        // Hover and active states
+        &,
+        &:hover,
+        &:focus {
+          border-left-color: @gray-lte;
+          border-bottom-color: @gray-lte;
+        }
+        &:hover,
+        &:focus,
+        &:active {
+          color: @sidebar-dark-bg;
+		  background-color: @sidebar-dark-color;
+        }	  
+    }	
+  }
+
+  //The sidebar button form
+  .control-sidebar-btn-form {
+    .border-radius(3px);
+    border: 1px solid lighten(@sidebar-dark-bg, 10%);
+    margin: 10px 10px;
+    .btn-block{
+      box-shadow: none;
+      background-color: lighten(@sidebar-dark-bg, 10%);
+      border: 1px solid transparent;
+      height: 35px;
+    }
+    .btn-block {
+      color: #eee;
+      .border-radius(2px, 0, 2px, 0);
+        &:hover,
+        &:focus,
+        &:active {
+        background-color: lighten(@sidebar-dark-bg, 15%);
+        color: #eee;
+      }
+    }	
+  }  
 }
 
 // Light skin
@@ -296,4 +382,85 @@
       }
     }
   }
+ //The sidebar search form
+  .control-sidebar-form {
+    .border-radius(3px);
+    border: 1px solid @gray-lte;  //darken(@sidebar-light-bg, 5%);
+    margin: 10px 10px;
+    input[type="text"],
+    .btn-xs {
+      box-shadow: none;
+      background-color: #fff; //darken(@sidebar-light-bg, 3%);
+      border: 1px solid transparent;
+      height: 22px;
+      //.transition(all @transition-speed @transition-fn);
+    }
+    input[type="text"] {
+      color: #666;
+      .border-radius(2px, 0, 2px, 0);
+      &:focus,
+      &:focus + .input-group-btn .btn {
+        background-color: #fff;
+        color: #666;
+      }
+      &:focus + .input-group-btn .btn {
+        border-left-color: #fff;
+      }
+    }
+    .btn-xs {
+      color: #666;
+      .border-radius(0, 2px, 0, 2px);
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: darken(@sidebar-light-bg, 5%);
+        color: #666;
+	  }	  
+    }
+  }
+  //Input group menu
+  .input-group-btn > .dropdown-menu {
+	min-width: 180px;
+	background-color: @sidebar-light-bg;
+	border: 1px solid @gray-lte;
+    > li > a {
+		color: @sidebar-light-color;
+        // Hover and active states
+        &,
+        &:hover,
+        &:focus {
+          border-left-color: @gray-lte;
+          border-bottom-color: @gray-lte;
+        }
+        &:hover,
+        &:focus,
+        &:active {
+		  background-color: darken(@sidebar-light-bg, 5%);
+        }	  
+    }	
+  }
+  //The sidebar button form
+  .control-sidebar-btn-form {
+    .border-radius(3px);
+    border: 1px solid @gray-lte;
+    margin: 10px 10px;
+    .btn-block{
+      box-shadow: none;
+      background-color: #fff;
+      border: 1px solid transparent;
+      height: 35px;
+    }
+    .btn-block {
+      color: #666;
+      .border-radius(2px, 0, 2px, 0);
+        &:hover,
+        &:focus,
+        &:active {
+        background-color: darken(@sidebar-light-bg, 5%);
+        color: #666;
+      }
+    }	
+  }  
 }
+
+

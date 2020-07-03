@@ -14,16 +14,18 @@
 // Warning
 @yellow: #f39c12;
 @blue: #0073b7;
-@navy: #001F3F;
-@teal: #39CCCC;
-@olive: #3D9970;
-@lime: #01FF70;
-@orange: #FF851B;
-@fuchsia: #F012BE;
+@navy: #001f3f;
+@teal: #39cccc;
+@beige: #eeeec3;
+@olive: #808000;
+@lime: #01ff70;
+@orange: #ff851b;
+@fuchsia: #f457c3;
 @purple: #605ca8;
-@maroon: #D81B60;
+@maroon: #996633;
 @black: #111;
 @gray-lte: #d2d6de;
+@white:#222d32;
 
 // LAYOUT
 // --------------------------------------------------------
@@ -31,7 +33,7 @@
 // Side bar and logo width
 @sidebar-width: 230px;
 // Boxed layout maximum width
-@boxed-layout-max-width: 1024px;
+@boxed-layout-max-width: 1240px;
 // When the logo should go to the top of the screen
 @screen-header-collapse: @screen-xs-max;
 
@@ -54,6 +56,15 @@
 @sidebar-dark-submenu-bg: lighten(@sidebar-dark-bg, 5%);
 @sidebar-dark-submenu-color: lighten(@sidebar-dark-submenu-bg, 40%);
 @sidebar-dark-submenu-hover-color: #fff;
+
+// Neutral sidebar
+@sidebar-neutral-bg: #8d9397;
+@sidebar-neutral-hover-bg: darken(@sidebar-neutral-bg, 3%);
+@sidebar-neutral-color: lighten(@sidebar-neutral-bg, 60%);
+@sidebar-neutral-hover-color: #000;
+@sidebar-neutral-submenu-bg: @sidebar-neutral-hover-bg;
+@sidebar-neutral-submenu-color: #444;
+@sidebar-neutral-submenu-hover-color: #000;
 
 // Light sidebar
 @sidebar-light-bg: #f9fafc;

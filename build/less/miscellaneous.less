@@ -56,7 +56,9 @@
 .bg-green,
 .bg-navy,
 .bg-teal,
+.bg-beige,
 .bg-olive,
+.bg-white,
 .bg-lime,
 .bg-orange,
 .bg-fuchsia,
@@ -71,7 +73,9 @@
 .bg-green-active,
 .bg-navy-active,
 .bg-teal-active,
+.bg-beige-active,
 .bg-olive-active,
+.bg-white-active,
 .bg-lime-active,
 .bg-orange-active,
 .bg-fuchsia-active,
@@ -126,8 +130,16 @@
   background-color: @teal !important;
 }
 
+.bg-beige {
+  background-color: @beige !important;
+}
+
 .bg-olive {
   background-color: @olive !important;
+}
+
+.bg-white {
+  background-color: @white !important;
 }
 
 .bg-lime {
@@ -192,8 +204,16 @@
   background-color: darken(@teal , 5%) !important;
 }
 
+.bg-beige-active {
+  background-color: darken(@beige , 5%) !important;
+}
+
 .bg-olive-active {
   background-color: darken(@olive , 5%) !important;
+}
+
+.bg-white-active {
+  background-color: darken(@white , 5%) !important;
 }
 
 .bg-lime-active {
@@ -262,8 +282,16 @@
   color: @teal !important;
 }
 
+.text-beige {
+  color: @beige !important;
+}
+
 .text-olive {
   color: @olive !important;
+}
+
+.text-white {
+  color: @white !important;
 }
 
 .text-lime {
@@ -369,6 +397,11 @@
 // Gradient Background colors
 .bg-teal-gradient {
   .gradient(@teal; @teal; lighten(@teal, 16%)) !important;
+  color: #fff;
+}
+
+.bg-beige-gradient {
+  .gradient(@beige; @beige; lighten(@beige, 16%)) !important;
   color: #fff;
 }
 

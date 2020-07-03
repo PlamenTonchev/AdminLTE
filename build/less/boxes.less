@@ -30,6 +30,42 @@
   &.box-default {
     border-top-color: @gray-lte;
   }
+  &.box-skin-blue, &.box-skin-blue-light {
+    border-top-color: @blue;
+  }
+  &.box-skin-red, &.box-skin-red-light {
+    border-top-color: @red;
+  }
+  &.box-skin-green, &.box-skin-green-light {
+    border-top-color: @green;
+  }
+  &.box-skin-beige, &.box-skin-beige-light {
+    border-top-color: @beige;
+  }
+  &.box-skin-yellow, &.box-skin-yellow-light {
+    border-top-color: @yellow;
+  }
+  &.box-skin-purple, &.box-skin-purple-light {
+    border-top-color: @purple;
+  }
+  &.box-skin-olive, &.box-skin-olive-light {
+    border-top-color: @olive;
+  }
+  &.box-skin-teal, &.box-skin-teal-light {
+    border-top-color: @teal;
+  }
+  &.box-skin-maroon, &.box-skin-maroon-light {
+    border-top-color: @maroon;
+  }
+  &.box-skin-pink, &.box-skin-pink-light {
+    border-top-color: @fuchsia;
+  }
+  &.box-skin-black, &.box-skin-black-light {
+    border-top-color: @gray-lte;
+  }
+  &.box-skin-white, &.box-skin-white-light {
+    border-top-color: @white;
+  }
 
   // collapsed mode
   &.collapsed-box {
@@ -100,6 +136,42 @@
     }
     &.box-success {
       .box-solid-variant(@green);
+    }
+	&.box-skin-blue, &.box-skin-blue-light {
+      .box-solid-variant(@blue);
+    }
+    &.box-skin-red, &.box-skin-red-light {
+      .box-solid-variant(@red);
+    }
+    &.box-skin-green, &.box-skin-green-light {
+      .box-solid-variant(@green);
+    }
+    &.box-skin-beige, &.box-skin-beige-light {
+      .box-solid-variant(@beige);
+    }
+    &.box-skin-yellow, &.box-skin-yellow-light {
+      .box-solid-variant(@yellow);
+    }
+    &.box-skin-purple, &.box-skin-purple-light {
+      .box-solid-variant(@purple);
+    }
+    &.box-skin-olive, &.box-skin-olive-light {
+      .box-solid-variant(@olive);
+    }
+    &.box-skin-teal, &.box-skin-teal-light {
+      .box-solid-variant(@teal);
+    }
+    &.box-skin-maroon, &.box-skin-maroon-light {
+      .box-solid-variant(@maroon);
+    }
+    &.box-skin-pink, &.box-skin-pink-light {
+      .box-solid-variant(@fuchsia);
+    }
+    &.box-skin-black, &.box-skin-black-light {
+      .box-solid-variant(@gray-lte);
+    }
+    &.box-skin-white, &.box-skin-white-light {
+      .box-solid-variant(@white);
     }
 
     > .box-header > .box-tools .btn {
@@ -437,7 +509,12 @@
     > .offline {
       border: 2px solid @red;
     }
-
+    > .infoline {
+      border: 2px solid @light-blue;
+    }
+	> .dataline {
+      border: 2px solid @yellow;
+    }
     // The message body
     > .message {
       margin-left: 55px;
