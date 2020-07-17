@@ -103,11 +103,6 @@
 .skin-purple-light .user-panel > .info > a {
   color: #444444;
 }
-.skin-purple-light .sidebar-menu > li {
-  -webkit-transition: border-left-color 0.3s ease;
-  -o-transition: border-left-color 0.3s ease;
-  transition: border-left-color 0.3s ease;
-}
 .skin-purple-light .sidebar-menu > li.header {
   color: #848484;
   background: #f9fafc;
@@ -121,10 +116,8 @@
   color: #000000;
   background: #f4f4f5;
 }
-.skin-purple-light .sidebar-menu > li.active {
-  border-left-color: #605ca8;
-}
 .skin-purple-light .sidebar-menu > li.active > a {
+  border-left-color: #605ca8;
   font-weight: 600;
 }
 .skin-purple-light .sidebar-menu > li > .treeview-menu {

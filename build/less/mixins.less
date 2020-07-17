@@ -218,7 +218,7 @@
   }
   //Sidebar Menu. First level links
   .sidebar-menu > li {
-    .transition(border-left-color .3s ease);
+    //.transition(border-left-color .3s ease);
     //border-left: 3px solid transparent;
     //Section Headning
     &.header {
@@ -239,11 +239,9 @@
     &:hover > a {
 
     }
-    &.active {
+    &.active > a {
       border-left-color: @icon-active-color;
-      > a {
-        font-weight: 600;
-      }
+	  font-weight: 600;
     }
     //First Level Submenu
     > .treeview-menu {
