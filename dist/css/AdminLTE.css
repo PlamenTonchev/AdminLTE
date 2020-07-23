@@ -4908,9 +4908,11 @@ table.text-center th {
   background-color: #001f3f !important;
 }
 .bg-teal {
+  color: #000 !important;
   background-color: #39cccc !important;
 }
 .bg-beige {
+  color: #000 !important;
   background-color: #eeeec3 !important;
 }
 .bg-olive {
@@ -4973,9 +4975,11 @@ table.text-center th {
   background-color: #001a35 !important;
 }
 .bg-teal-active {
+  color: #000 !important;
   background-color: #30bbbb !important;
 }
 .bg-beige-active {
+  color: #000 !important;
   background-color: #e8e8af !important;
 }
 .bg-olive-active {

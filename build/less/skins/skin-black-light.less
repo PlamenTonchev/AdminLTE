@@ -4,6 +4,7 @@
  */
 @import "../../bootstrap-less/mixins.less";
 @import "../../bootstrap-less/variables.less";
+@import "../progress-bars.less";
 @import "../variables.less";
 @import "../mixins.less";
 
@@ -61,6 +62,35 @@
     box-shadow: none;
   }
   
+
+// Bar of progress
+.progress-bar {
+  background-color: @gray-dark;
+  background-image: none !important;
+}
+
+// NAV TABS 
+.nav-tabs-custom {
+  > .nav-tabs {
+    > li.active {
+      border-top-color:@gray-dark;
+    }
+  }
+}
+
+// TIMELINE
+.timeline-inverse {
+  > li {
+    > .timeline-item.active {
+      background: lighten(@gray-lte, 10%);
+      border: 1px solid @gray-dark;
+      .box-shadow(none);
+      > .timeline-header {
+        border-bottom-color: @gray-dark;
+      }
+    }
+  }
+}
   
 //
 // Pagination (multiple pages)

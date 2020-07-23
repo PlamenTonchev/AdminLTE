@@ -49,6 +49,20 @@
     background: transparent;
   }
 
+// TIMELINE
+.timeline-inverse {
+  > li {
+    > .timeline-item.active {
+      background: lighten(@light-blue, 30%);
+      border: 1px solid @light-blue;
+      .box-shadow(none);
+      > .timeline-header {
+        border-bottom-color: @light-blue;
+      }
+    }
+  }
+}
+
   //Create the sidebar skin
   .skin-dark-sidebar(@light-blue);
 }
