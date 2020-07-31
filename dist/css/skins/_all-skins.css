@@ -811,7 +811,7 @@
   background: #f4f4f5;
 }
 .skin-black-light .sidebar-menu > li.active > a {
-  border-left-color: #ffffff;
+  border-left-color: #222222;
   font-weight: 600;
 }
 .skin-black-light .sidebar-menu > li > .treeview-menu {
@@ -2624,7 +2624,7 @@
   background: #1e282c;
 }
 .skin-white .sidebar-menu > li.active > a {
-  border-left-color: #222d32;
+  border-left-color: #eeeeee;
 }
 .skin-white .sidebar-menu > li > .treeview-menu {
   margin: 0 1px;

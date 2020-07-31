@@ -283,7 +283,7 @@
   background: #f4f4f5;
 }
 .skin-black-light .sidebar-menu > li.active > a {
-  border-left-color: #ffffff;
+  border-left-color: #222222;
   font-weight: 600;
 }
 .skin-black-light .sidebar-menu > li > .treeview-menu {
