@@ -192,6 +192,9 @@
   background-color: #39cccc;
   background-image: none !important;
 }
+.skin-teal .progress-outer {
+  border: 1px solid #39cccc !important;
+}
 .skin-teal .nav-tabs-custom > .nav-tabs > li.active {
   border-top-color: #39cccc;
 }
@@ -203,6 +206,13 @@
 }
 .skin-teal .timeline-inverse > li > .timeline-item.active > .timeline-header {
   border-bottom-color: #39cccc;
+}
+.skin-teal table.dataTable tbody > tr.selected,
+.skin-teal table.dataTable tbody > tr > .selected {
+  background-color: #39cccc;
+}
+.skin-teal .table-bordered {
+  border: 1px solid #39cccc;
 }
 .skin-teal .pagination > li {
   display: inline;

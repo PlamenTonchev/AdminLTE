@@ -49,6 +49,16 @@
     background: transparent;
   }
 
+// Bar of progress
+.progress-bar {
+  background-color: @light-blue;
+  background-image: none !important;
+}
+
+.progress-outer{
+    border: 1px solid @light-blue !important;
+}
+
 // TIMELINE
 .timeline-inverse {
   > li {
@@ -63,7 +73,16 @@
   }
 }
 
-  //Create the sidebar skin
+//DATATABLE
+table.dataTable tbody>tr.selected, table.dataTable tbody>tr>.selected {
+    background-color: @light-blue;
+}
+
+.table-bordered {
+    border: 1px solid @light-blue;
+}
+  
+//Create the sidebar skin
   .skin-dark-sidebar(@light-blue);
 }
 

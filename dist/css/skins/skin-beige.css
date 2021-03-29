@@ -214,8 +214,23 @@
   background-color: #e5e5a3;
   background-image: none !important;
 }
+.skin-beige .progress-outer {
+  border: 1px solid #e5e5a3 !important;
+}
 .skin-beige .nav-tabs-custom > .nav-tabs > li.active {
   border-top-color: #e5e5a3;
+}
+.skin-beige table.dataTable tbody > tr.selected,
+.skin-beige table.dataTable tbody > tr > .selected {
+  background-color: #eeeec3;
+}
+.skin-beige table.dataTable tbody tr.selected,
+.skin-beige table.dataTable tbody th.selected,
+.skin-beige table.dataTable tbody td.selected {
+  color: #222d32;
+}
+.skin-beige .table-bordered {
+  border: 1px solid #eeeec3;
 }
 .skin-beige .timeline-inverse > li > .timeline-item.active {
   background: #eeeec3;

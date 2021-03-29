@@ -56,6 +56,10 @@
   background-image: none !important;
 }
 
+.progress-outer{
+    border: 1px solid @olive !important;
+}
+
 // NAV TABS 
 .nav-tabs-custom {
   > .nav-tabs {
@@ -69,7 +73,7 @@
 .timeline-inverse {
   > li {
     > .timeline-item.active {
-      background: lighten(@olive, 15%);
+      background: lighten(@olive, 55%);
       border: 1px solid @olive;
       .box-shadow(none);
       > .timeline-header {
@@ -77,6 +81,15 @@
       }
     }
   }
+}
+
+//DATATABLE
+table.dataTable tbody>tr.selected, table.dataTable tbody>tr>.selected {
+    background-color: @olive;
+}
+
+.table-bordered {
+    border: 1px solid @olive;
 }
 
 //

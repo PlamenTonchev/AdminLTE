@@ -56,6 +56,13 @@
 .skin-blue-light .content-header {
   background: transparent;
 }
+.skin-blue-light .progress-bar {
+  background-color: #3c8dbc;
+  background-image: none !important;
+}
+.skin-blue-light .progress-outer {
+  border: 1px solid #3c8dbc !important;
+}
 .skin-blue-light .timeline-inverse > li > .timeline-item.active {
   background: #acd0e5;
   border: 1px solid #3c8dbc;
@@ -64,6 +71,13 @@
 }
 .skin-blue-light .timeline-inverse > li > .timeline-item.active > .timeline-header {
   border-bottom-color: #3c8dbc;
+}
+.skin-blue-light table.dataTable tbody > tr.selected,
+.skin-blue-light table.dataTable tbody > tr > .selected {
+  background-color: #3c8dbc;
+}
+.skin-blue-light .table-bordered {
+  border: 1px solid #3c8dbc;
 }
 .skin-blue-light .wrapper,
 .skin-blue-light .main-sidebar,

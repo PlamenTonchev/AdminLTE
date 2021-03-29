@@ -191,17 +191,27 @@
   background-color: #00a65a;
   background-image: none !important;
 }
+.skin-green .progress-outer {
+  border: 1px solid #00a65a !important;
+}
 .skin-green .nav-tabs-custom > .nav-tabs > li.active {
   border-top-color: #00a65a;
 }
 .skin-green .timeline-inverse > li > .timeline-item.active {
-  background: #00f383;
+  background: #a6ffd6;
   border: 1px solid #00a65a;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 .skin-green .timeline-inverse > li > .timeline-item.active > .timeline-header {
   border-bottom-color: #00a65a;
+}
+.skin-green table.dataTable tbody > tr.selected,
+.skin-green table.dataTable tbody > tr > .selected {
+  background-color: #00a65a;
+}
+.skin-green .table-bordered {
+  border: 1px solid #00a65a;
 }
 .skin-green .pagination > li {
   display: inline;

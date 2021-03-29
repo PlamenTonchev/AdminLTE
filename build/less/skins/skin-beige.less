@@ -68,6 +68,10 @@
   background-image: none !important;
 }
 
+.progress-outer{
+    border: 1px solid darken(@beige,8%) !important;
+}
+
 /* NAV TABS */
 .nav-tabs-custom {
   > .nav-tabs {
@@ -75,6 +79,19 @@
       border-top-color:darken(@beige, 8%);
     }
   }
+}
+
+//DATATABLE
+table.dataTable tbody>tr.selected, table.dataTable tbody>tr>.selected {
+    background-color: @beige;
+}
+
+table.dataTable tbody tr.selected, table.dataTable tbody th.selected, table.dataTable tbody td.selected {
+    color: @white;
+}
+
+.table-bordered {
+    border: 1px solid @beige;
 }
 
 // TIMELINE

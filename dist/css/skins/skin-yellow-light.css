@@ -191,6 +191,9 @@
   background-color: #f39c12;
   background-image: none !important;
 }
+.skin-yellow-light .progress-outer {
+  border: 1px solid #f39c12 !important;
+}
 .skin-yellow-light .nav-tabs-custom > .nav-tabs > li.active {
   border-top-color: #f39c12;
 }
@@ -202,6 +205,13 @@
 }
 .skin-yellow-light .timeline-inverse > li > .timeline-item.active > .timeline-header {
   border-bottom-color: #f39c12;
+}
+.skin-yellow-light table.dataTable tbody > tr.selected,
+.skin-yellow-light table.dataTable tbody > tr > .selected {
+  background-color: #f39c12;
+}
+.skin-yellow-light .table-bordered {
+  border: 1px solid #f39c12;
 }
 .skin-yellow-light .pagination > li {
   display: inline;

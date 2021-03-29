@@ -67,6 +67,10 @@
   background-image: none !important;
 }
 
+.progress-outer{
+    border: 1px solid darken(@beige,8%) !important;
+}
+
 // NAV TABS 
 .nav-tabs-custom {
   > .nav-tabs {
@@ -89,6 +93,16 @@
     }
   }
 }
+
+//DATATABLE
+table.dataTable tbody>tr.selected, table.dataTable tbody>tr>.selected {
+    background-color: @beige;
+}
+
+.table-bordered {
+    border: 1px solid @beige;
+}
+
 //
 // Pagination (multiple pages)
 // --------------------------------------------------

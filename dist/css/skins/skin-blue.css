@@ -56,6 +56,13 @@
 .skin-blue .content-header {
   background: transparent;
 }
+.skin-blue .progress-bar {
+  background-color: #3c8dbc;
+  background-image: none !important;
+}
+.skin-blue .progress-outer {
+  border: 1px solid #3c8dbc !important;
+}
 .skin-blue .timeline-inverse > li > .timeline-item.active {
   background: #acd0e5;
   border: 1px solid #3c8dbc;
@@ -64,6 +71,13 @@
 }
 .skin-blue .timeline-inverse > li > .timeline-item.active > .timeline-header {
   border-bottom-color: #3c8dbc;
+}
+.skin-blue table.dataTable tbody > tr.selected,
+.skin-blue table.dataTable tbody > tr > .selected {
+  background-color: #3c8dbc;
+}
+.skin-blue .table-bordered {
+  border: 1px solid #3c8dbc;
 }
 .skin-blue .wrapper,
 .skin-blue .main-sidebar,

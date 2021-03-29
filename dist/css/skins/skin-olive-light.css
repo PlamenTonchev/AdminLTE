@@ -160,7 +160,7 @@
   color: #fff;
 }
 .skin-olive-light .main-header .navbar .sidebar-toggle:hover {
-  background-color: #666700;
+  background-color: #000000;
 }
 @media (max-width: 767px) {
   .skin-olive-light .main-header .navbar .dropdown-menu li.divider {
@@ -191,17 +191,27 @@
   background-color: #808000;
   background-image: none !important;
 }
+.skin-olive-light .progress-outer {
+  border: 1px solid #808000 !important;
+}
 .skin-olive-light .nav-tabs-custom > .nav-tabs > li.active {
   border-top-color: #808000;
 }
 .skin-olive-light .timeline-inverse > li > .timeline-item.active {
-  background: #cccd00;
+  background: #ffff9a;
   border: 1px solid #808000;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 .skin-olive-light .timeline-inverse > li > .timeline-item.active > .timeline-header {
   border-bottom-color: #808000;
+}
+.skin-olive-light table.dataTable tbody > tr.selected,
+.skin-olive-light table.dataTable tbody > tr > .selected {
+  background-color: #808000;
+}
+.skin-olive-light .table-bordered {
+  border: 1px solid #808000;
 }
 .skin-olive-light .pagination > li {
   display: inline;
